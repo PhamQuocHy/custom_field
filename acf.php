@@ -367,14 +367,14 @@ if ( ! class_exists( 'ACF' ) ) {
 				'acf-field-group',
 				array(
 					'labels'          => array(
-						'name'               => __( 'Field Groups', 'acf' ),
+						'name'               => __( 'CÁC TRƯỜNG', 'acf' ),
 						'singular_name'      => __( 'Field Group', 'acf' ),
-						'add_new'            => __( 'Add New', 'acf' ),
+						'add_new'            => __( 'Thêm mới', 'acf' ),
 						'add_new_item'       => __( 'Add New Field Group', 'acf' ),
 						'edit_item'          => __( 'Edit Field Group', 'acf' ),
 						'new_item'           => __( 'New Field Group', 'acf' ),
 						'view_item'          => __( 'View Field Group', 'acf' ),
-						'search_items'       => __( 'Search Field Groups', 'acf' ),
+						'search_items'       => __( 'Tìm kiếm trường ', 'acf' ),
 						'not_found'          => __( 'No Field Groups found', 'acf' ),
 						'not_found_in_trash' => __( 'No Field Groups found in Trash', 'acf' ),
 					),

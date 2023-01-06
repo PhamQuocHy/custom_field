@@ -17,13 +17,13 @@ if ( $page_title ) {
 	?>
 <div class="acf-headerbar">
 
-	<h1 class="acf-page-title">
-	AME WEBSITE
+	<h1 class="acf-page-title" style="color: #0d3380; font-weight: bold; font-size: 30px ">
+	 	AME <span style="color: #ffc72b">WEB</span>
 	</h1>
 
 	<?php
 	if ( ! empty( $post_type_object ) && current_user_can( $post_type_object->cap->create_posts ) ) {
-		echo ' <a href="' . esc_url( admin_url( $post_new_file ) ) . '" class="acf-btn acf-btn-sm"><i class="acf-icon acf-icon-plus"></i>' . esc_html( "thêm mới" ) . '</a>';
+		echo ' <a href="' . esc_url( admin_url( $post_new_file ) ) . '" class="acf-btn acf-btn-sm" style="background-color: #0d3380; color: #ffc72b"><i class="acf-icon acf-icon-plus"></i>' . esc_html( "thêm mới" ) . '</a>';
 	}
 	?>
 
